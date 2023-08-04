@@ -11,15 +11,16 @@ const Conversations = () => {
       <NavBar pageTitle="Conversations" />
       <div className="w-full h-[89vh] px-5 pt-5">
         <div className="w-full h-[5%] flex justify-between items-center">
-          <p>Conversations with Customers</p>
-          <button className="px-10 py-2 bg-actionBlue text-mainWhite rounded-xl text-sm">
+          <p className="lg:text-lg text-xs">Conversations with Customers</p>
+          <button className="lg:px-10 px-5 py-2 bg-actionBlue text-mainWhite rounded-xl text-sm">
             New Message
           </button>
         </div>
 
-        <div className="w-full h-[92%] mt-5 flex items-center gap-5">
+        <div className="w-full h-[92%] mt-5 lg:flex items-center gap-5">
           <Contacts />
-          <div className="w-2/3 h-full bg-mainWhite">
+
+          <div className="chat-space lg:w-2/3 w-full lg:h-full bg-mainWhite rounded-xl">
             <Messanger />
 
             <div className="mt-5">
@@ -48,21 +49,21 @@ const Conversations = () => {
                 </div>
               </div>
 
-              <div className="message-body w-[40%] mt-3">
+              <div className="message-body lg:w-[40%] w-[80%] mt-3">
                 <div className="bg-actionBlue text-mainWhite p-5 rounded-t-2xl rounded-r-2xl">
                   Hello, I want to make enquiries about your product
                 </div>
                 <p className="text-sm text-textGray">12:55am</p>
               </div>
 
-              <div className="message-body w-[40%] ml-auto mt-3">
+              <div className="message-body lg:w-[40%] w-[80%] ml-auto mt-3">
                 <div className="bg-secondary  p-5 rounded-t-2xl rounded-l-2xl">
                   Hello Janet, thank you for reaching out
                 </div>
                 <p className="text-sm text-textGray text-end">12:55am</p>
               </div>
 
-              <div className="message-body w-[35%] ml-auto mt-3">
+              <div className="message-body lg:w-[35%] w-[70%] ml-auto mt-3">
                 <div className="bg-secondary  p-5 rounded-t-2xl rounded-l-2xl">
                   What do you need to know?
                 </div>
@@ -75,7 +76,7 @@ const Conversations = () => {
                 </p>
               </div>
 
-              <div className="message-body w-[45%] mt-3">
+              <div className="message-body lg:w-[45%] w-[80%] mt-3">
                 <div className="bg-actionBlue text-mainWhite p-5 rounded-t-2xl rounded-r-2xl">
                   I want to know if the price is negotiable, i need about 2
                   Units

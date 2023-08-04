@@ -62,3 +62,16 @@ button:focus-visible {
 input:focus {
   outline: none;
 }
+
+@media (max-width: 1000px) {
+  .sidebar {
+    position: absolute;
+    z-index: 1;
+  }
+  .section2 {
+    margin-top: 21rem;
+  }
+  .chat-space {
+    margin-top: 3rem;
+  }
+}
