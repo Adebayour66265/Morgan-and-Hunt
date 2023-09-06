@@ -18,7 +18,7 @@ const NavBar = ({ pageTitle }) => {
               id=""
               className="bg-secondary px-5 py-2 text-sm rounded-lg"
             >
-              <option value="">Nanny's Shop</option>
+              <option value="">Driver Management</option>
               <option value=""></option>
               <option value=""></option>
               <option value=""></option>
