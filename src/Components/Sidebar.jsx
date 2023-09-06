@@ -89,7 +89,7 @@ const Sidebar = () => {
 
           <MenuLink
             avata={folderIcon}
-            title={!open ? "" : "Inventry"}
+            title={!open ? "" : "Driver"}
             style={
               location.pathname === "/inventry"
                 ? `active ${!open ? "lg:block hidden" : "block"}`
