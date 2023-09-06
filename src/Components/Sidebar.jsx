@@ -37,7 +37,7 @@ const Sidebar = () => {
                 !open && "hidden"
               }`}
             >
-              Metrix
+              Glopilot
             </h2>
           </div>
 
